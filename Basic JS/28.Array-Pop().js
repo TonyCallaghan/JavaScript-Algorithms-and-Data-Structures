@@ -14,3 +14,9 @@ var threeArr = [1, 4, 6];
 var oneDown = threeArr.pop();
 console.log(oneDown); // Returns 6
 console.log(threeArr); // Returns [1, 4]
+
+// Another
+
+var myArray = [["John", 23], ["cat", 2]];
+
+var removedFromMyArray = myArray.pop([myArray.length-1]); //remove last
