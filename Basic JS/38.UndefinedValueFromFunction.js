@@ -16,3 +16,18 @@ addSum(3); // sum will be modified but returned value is undefined
 
 // addSum is a function without a return statement. 
 // The function will change the global sum variable but the returned value of the function is undefined.
+
+// Another Ex
+var sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+function addFive() {
+  sum = sum + 5;
+}
+
+addThree();
+addFive();
+console.log(sum); // 8
